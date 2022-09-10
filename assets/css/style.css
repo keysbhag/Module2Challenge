@@ -1,5 +1,5 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
@@ -26,6 +26,7 @@ nav{
 }
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 15px;
     margin-right: 20px;
     font-size: 20px;
@@ -38,7 +39,7 @@ nav li {
 }
 
 h1 {
-    display: inline-block;
+    display: flex;
     padding-left: 15px;
     font-size: 48px;
     justify-self: flex-start;
@@ -57,6 +58,7 @@ h1::after{
     position: relative;
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5px;
     
 }
 
