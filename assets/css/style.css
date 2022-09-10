@@ -30,7 +30,6 @@ nav ul {
     margin-right: 20px;
     font-size: 20px;
     list-style-type: none;
-    justify-content: end;
 }
 
 nav li {
@@ -46,6 +45,12 @@ h1 {
     font-family: serif;   
 }
 
+h2 {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
 h1::after{
     color: gray;
     content: attr(lastname);
@@ -55,9 +60,23 @@ h1::after{
     
 }
 
-@media screen and (max-width: 768px) {
+.Head{
+    display: flex;
+}
+
+#skyline {
+    height: 550px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: linear-gradient(rgba(87, 93, 92, 0.6),rgba(84, 90, 88, 0.8)), url("/Users/keyshawnbhagwandin/Desktop/Module2Challenge/assets/images/torontoSkyline.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 954px) {
     nav {
       flex-direction: column;
+      align-items: center;
     }
   }
   
