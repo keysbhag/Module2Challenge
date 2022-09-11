@@ -54,7 +54,7 @@ h2 {
 }
 
 h1::after{
-    color: gray;
+    color: rgb(207, 201, 201);
     content: attr(lastname);
     position: relative;
     font-weight: lighter;
@@ -82,6 +82,8 @@ h1::after{
     display: flex;
     align-items: center;
     margin-top: 100px;
+    position: relative;
+    bottom: 70px;
 }
 
 #socials{
@@ -93,6 +95,7 @@ h1::after{
 
 div a{
     color: white;
+    display: flex;
 }
 
 @media screen and (max-width: 950px) {
@@ -101,4 +104,10 @@ div a{
       align-items: center;
     }
   }
+
+@media  screen and (max-width: 298px) {
+    #socials{
+        flex-direction: column;
+    }
+}
   
