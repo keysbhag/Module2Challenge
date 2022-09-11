@@ -39,7 +39,7 @@ nav li {
 }
 
 h1 {
-    display: flex;
+    display: flex; /* could potentially remove */
     flex-wrap: wrap;
     padding-left: 15px;
     font-size: 48px;
@@ -47,9 +47,9 @@ h1 {
     font-family: serif;   
 }
 
+
 h2 {
-    display: inline-block;
-    padding-left: 15px;
+    display: flex; /* could potentially remove */
     font-size: 40px;
 }
 
@@ -89,7 +89,8 @@ h1::after{
 #socials{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
@@ -98,7 +99,7 @@ div a{
     display: flex;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 902px) {
     nav {
       flex-direction: column;
       align-items: center;
@@ -110,4 +111,14 @@ div a{
         flex-direction: column;
     }
 }
+
+@media  screen and (max-width: 520px) {
+    h1 {
+        justify-content: center;
+    }
+    nav ul{
+        justify-content: center;
+    }
+}
+
   
