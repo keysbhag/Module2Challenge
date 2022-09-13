@@ -207,7 +207,7 @@ h3{
 .projects-content{
     display: flex;
     flex-direction: row;
-    margin: 15px;
+    margin: 30px;
 
 }
 
@@ -218,6 +218,7 @@ h3{
 }
 
 .projects-info{
+    display: flex;
     flex: 1;
 }
 #first-child{
@@ -244,11 +245,18 @@ footer{
       flex-direction: column;
       align-items: center;
     }
+    .other-child{
+        flex-basis: 100%;
+    }
   }
 
 @media  screen and (max-width: 298px) {
     #socials{
         flex-direction: column;
+    }
+    .projects-content{
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
