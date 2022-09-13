@@ -53,7 +53,6 @@ h1 {
     font-family: serif;   
 }
 
-
 h2 {
     display: flex; /* could potentially remove */
     font-size: 40px;
@@ -96,15 +95,14 @@ h1::after{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
-div a{
+#socials a{
     color: white;
     display: flex;
 }
 
-div a:hover{
+#socials a:hover{
     color: lightgray;
 }
 
@@ -161,7 +159,7 @@ main{
 }
 
 h3{
-    font-size: 35px;
+    font-size: 48px;
     padding: 10px;
     border-bottom: 1px solid var(--borderBlue);
     justify-content: space-around;
@@ -208,36 +206,68 @@ h3{
     display: flex;
     flex-direction: row;
     margin: 30px;
-
+    margin-right: 100px;
 }
 
 .projects-pics{
     display: flex;
     flex-wrap: wrap;
-    flex: 2;
+    flex: 5;
 }
 
 .projects-info{
     display: flex;
-    flex: 1;
+    flex-wrap: wrap;
+    flex: 2;
 }
-#first-child{
+.first-child{
     display: flex;
     flex: 2;
     flex-basis: 100%;
-    margin-right: 20px;
+    margin: 5px;
+    position: relative;
+}
+
+.first-child:hover{
+    transition: all 0.5s ease-in-out;
+    filter: opacity(70%);
 }
 
 .other-child{
     display: flex;
-    flex-basis: 50%;
+    flex: 1;
+    flex-basis: 40%;
+    margin: 5px;
+    position: relative;
 }
+
+.other-child:hover{
+    transition: all 0.5s ease-in-out;
+    filter: opacity(70%);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--marginBlue);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: var(--marginBlue);
+    border-radius: 5px;
+  }
 
 footer{
     background-color: var(--darkBlue);
     width: 100%;
-    height: 100px;
-    
+    height: 100px;  
 }
 
 @media screen and (max-width: 922px) {
