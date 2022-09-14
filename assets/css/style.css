@@ -191,6 +191,7 @@ h3{
     margin: 15px ;
     margin-top: 15px;
     display: flex;
+    align-self: center;
 
 }
 
@@ -204,6 +205,8 @@ h3{
     border-right: 1px solid var(--borderBlue);
     padding-left: 10px;
     border-left: 1px solid var(--borderBlue);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .about-content p{
     align-self: center;
