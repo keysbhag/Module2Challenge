@@ -1,4 +1,4 @@
-# First Copy Web Developer Portfolio
+# First Web Developer Portfolio
 
 
 ## Description
@@ -47,7 +47,7 @@ Keyshawn Bhagwandin
 
 ## Tests
 
-If you would like to have some fun and see how responsive the page is it test the responsiveness in Chrome Dev Tools:
+If you would like to have some fun and see how responsive the page is, test the responsiveness in Chrome Dev Tools:
 
 * Right click on page and click inspect
 
