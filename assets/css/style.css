@@ -271,6 +271,7 @@ span{
     flex-basis: 40%;
     margin: 5px;
     position: relative;
+    border-radius: 10px;
 }
 
 .other-child:hover{
@@ -290,7 +291,7 @@ span{
 
 .bottom-left {
     position: absolute;
-    bottom: 8px;
+    bottom: 10px;
     left: 16px;
     background-color: var(--marginBlue);
     border-radius: 5px;
@@ -349,10 +350,6 @@ footer{
     #socials{
         flex-direction: column;
     }
-    .projects-content{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 }
 
 @media  screen and (max-width: 540px) {
@@ -367,6 +364,22 @@ footer{
     .about-content {
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+@media screen and (max-width: 695px) {
+    .projects-content{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .projects-info{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        flex-basis: 100%;
+    }
+    .projects-pics{
+        flex-direction: row;
+        margin-top: 80px;
     }
 }
 
