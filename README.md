@@ -29,6 +29,12 @@ This is what the following webpage looks like:
 ![Large overview of Portfolio Website](./assets/images/KeyshawnsHomeWebpage.gif)
 
 
+## Wire Frame
+
+You can view the wire frame below or in the assets folder!
+
+![Large overview of Wire Frame](./assets/wireframe.png)
+
 ## Deployed Application
 
 Check out the live page at: https://keysbhag.github.io/Module2Challenge/
