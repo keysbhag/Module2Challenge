@@ -34,6 +34,7 @@ nav{
     padding: 10px;
     justify-content: space-between;
 }
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +82,7 @@ h2 {
 #skyline { /* Background photo of skyline */
     height: 550px;
     width: 100%;
-    background-image: linear-gradient(rgba(87, 93, 92, 0.6),rgba(84, 90, 88, 0.8)), url("/Users/keyshawnbhagwandin/Desktop/Module2Challenge/assets/images/torontoSkyline.jpg");
+    background-image: linear-gradient(rgba(87, 93, 92, 0.6),rgba(84, 90, 88, 0.8)), url("assets/images/torontoSkyline.jpg");
     background-size: cover;
     background-position: center;
 }
