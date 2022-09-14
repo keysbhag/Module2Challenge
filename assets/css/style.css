@@ -178,7 +178,7 @@ h3{ /* h3 tags are for setting styles and border for all subheadings in each con
     margin-right: 30px;
 }
 
-.flipped{ /* flips the subheader text for alternating containers */
+.flipped-header{ /* flips the subheader text for alternating containers */
     text-align: end;
 }
 
