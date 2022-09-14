@@ -319,7 +319,7 @@ span{ /* The first sentence of the projects info section is in bold */
     display: flex;
     flex: 2;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .contact-socials a:hover{
@@ -351,6 +351,7 @@ footer{ /* Footer spacing */
     #header-socials{ /* Flex's header socials */
         flex-direction: column;
     }
+
 }
 
 @media  screen and (max-width: 540px) { /* Centers the entire nav bar and logo */
@@ -359,6 +360,17 @@ footer{ /* Footer spacing */
     }
     nav ul{
         justify-content: center;
+    }
+    .projects-pics{
+        width: 270px;
+    }
+    .first-child{
+        flex: 1;
+        flex-basis: 50%;
+        width: 270px;
+    }
+    .other-child{
+        flex-basis: 50%;
     }
 }
 @media screen and (max-width: 1104px) { /* Stops the about section from getting too small  */
@@ -377,6 +389,7 @@ footer{ /* Footer spacing */
         flex-direction: row;
         flex: 1;
         flex-basis: 100%;
+        margin-top: -70px;
     }
     .projects-pics{
         flex-direction: row;
